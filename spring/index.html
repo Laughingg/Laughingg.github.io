@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Spring 简介 | laughing’s blog</title>
+    <meta name="description" content="Just playing around">
+    <link rel="icon" href="/favicon.ico">
+    
+    <link rel="preload" href="/assets/css/0.styles.2756bd4e.css" as="style"><link rel="preload" href="/assets/js/app.e8b96dd3.js" as="script"><link rel="preload" href="/assets/js/2.c63ec7a4.js" as="script"><link rel="preload" href="/assets/js/7.5a11ba21.js" as="script"><link rel="prefetch" href="/assets/js/10.b029cbd2.js"><link rel="prefetch" href="/assets/js/11.04d81f9d.js"><link rel="prefetch" href="/assets/js/12.8bfa2991.js"><link rel="prefetch" href="/assets/js/13.1e789266.js"><link rel="prefetch" href="/assets/js/14.636ef1a7.js"><link rel="prefetch" href="/assets/js/3.abf34a14.js"><link rel="prefetch" href="/assets/js/4.7bf6b5b0.js"><link rel="prefetch" href="/assets/js/5.3f99296c.js"><link rel="prefetch" href="/assets/js/6.f0717b82.js"><link rel="prefetch" href="/assets/js/8.332d6ee1.js"><link rel="prefetch" href="/assets/js/9.d7003737.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2756bd4e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">laughing’s blog</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">Home</a></div><div class="nav-item"><a href="/guide/" class="nav-link">Guide</a></div><div class="nav-item"><a href="/spring/" class="nav-link router-link-exact-active router-link-active">Spring</a></div><div class="nav-item"><a href="/springmvc/" class="nav-link">SpringMVC</a></div><div class="nav-item"><a href="/springboot/" class="nav-link">SpringBoot</a></div><div class="nav-item"><a href="/springcloud/" class="nav-link">SpringCloud</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">Home</a></div><div class="nav-item"><a href="/guide/" class="nav-link">Guide</a></div><div class="nav-item"><a href="/spring/" class="nav-link router-link-exact-active router-link-active">Spring</a></div><div class="nav-item"><a href="/springmvc/" class="nav-link">SpringMVC</a></div><div class="nav-item"><a href="/springboot/" class="nav-link">SpringBoot</a></div><div class="nav-item"><a href="/springcloud/" class="nav-link">SpringCloud</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/spring/one.html" class="sidebar-link">one.md</a></li><li><a href="/spring/two.html" class="sidebar-link">tow.md</a></li><li><a href="/spring/three.html" class="sidebar-link">three.md</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="spring-简介"><a href="#spring-简介" class="header-anchor">#</a> Spring 简介</h2> <div class="language-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">package</span> <span class="token namespace">org<span class="token punctuation">.</span>example</span><span class="token punctuation">;</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HelloWorld</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">private</span> <span class="token class-name">String</span> message<span class="token punctuation">;</span>
+
+    <span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">getMessage</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> message<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">setMessage</span><span class="token punctuation">(</span><span class="token class-name">String</span> message<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>message <span class="token operator">=</span> message<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.e8b96dd3.js" defer></script><script src="/assets/js/2.c63ec7a4.js" defer></script><script src="/assets/js/7.5a11ba21.js" defer></script>
+  </body>
+</html>
